@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-const client = require('./client.cjs');
+const client = require('./client.js');
 
 const createUser = async(username, password) => {
   try {

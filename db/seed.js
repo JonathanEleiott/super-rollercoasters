@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
-const client = require('./client.cjs');
-const { createUser } = require('./users.cjs');
+const client = require('./client.js');
+const { createUser } = require('./users.js');
 
 const dropTables = async() => {
   try {
