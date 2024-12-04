@@ -1,9 +1,9 @@
 /* eslint-disable no-undef */
-const { getAllUsers } = require('./db/users.cjs');
+const { getAllUsers } = require('./db/users.js');
 const express = require('express');
 const app = express();
 
-const client = require('./db/client.cjs');
+const client = require('./db/client.js');
 client.connect();
 
 app.use(express.static('dist'));
